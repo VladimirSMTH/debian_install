@@ -10,3 +10,7 @@ Installing Joomla in Docker on Debian 11:
 wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/docker/joomla.sh | bash
 Then, login on http://ip/ to web configurator. (db = joomladb, user = joomla, password = joomla)
 ---
+Installing Zabbix in Docker on Debian 11:
+wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/docker/zabbix.sh | bash
+-
+---
