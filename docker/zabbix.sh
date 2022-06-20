@@ -1,6 +1,6 @@
-docker network create zabbix-net
 apt-get update
 apt-get install docker.io -y
+docker network create zabbix-net
 docker run --name mysql-server -t \
       -e MYSQL_DATABASE="zabbix" \
       -e MYSQL_USER="zabbix" \
