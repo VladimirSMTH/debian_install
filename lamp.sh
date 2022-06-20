@@ -7,7 +7,7 @@ sudo apt install apache2 -y
 sudo systemctl enable apache2 --now
 curl -LsS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash -s -- --mariadb-server-version=10.7 --skip-maxscale --skip-tools
 sudo apt update
-sudo apt install mariadb-server mariadb-client
+sudo apt install mariadb-server mariadb-client -y
 sudo systemctl enable mariadb
 sudo mysql_secure_installation
 curl -sSL https://packages.sury.org/php/README.txt | sudo bash -x
