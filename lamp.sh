@@ -1,6 +1,6 @@
 apt-get install sudo
 sudo apt update && sudo apt upgrade -y
-apt-get install curl
+apt-get install curl -y
 sudo apt-get install software-properties-common dirmngr ca-certificates apt-transport-https nano wget curl -y
 curl -sSL https://packages.sury.org/apache2/README.txt | sudo bash -x
 sudo apt install apache2 -y
