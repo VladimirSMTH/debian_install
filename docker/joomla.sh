@@ -11,3 +11,5 @@ docker volume create joomla-data
 docker volume inspect joomla-data
 ln -s /var/lib/docker/volumes/joomla-data/_data /joomla
 docker run -d --name joomla -p 80:80 -v joomla-data:/var/www/html --network joomla-network -e JOOMLA_DB_HOST=joomladb -e JOOMLA_DB_USER=joomla -e JOOMLA_DB_PASSWORD=joomla joomla
+docker start joomladb
+docker start joomla
