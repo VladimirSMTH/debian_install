@@ -6,3 +6,7 @@ Installing Grafana on Debian 11:
 wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/grafana.sh | bash
 Then, login on http://ip:3000 with admin-admin
 ---
+Installing Joomla in Docker on Debian 11:
+wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/docker/joomla.sh | bash
+Then, login on http://ip/ to web configurator. (db = joomladb, user = joomla, password = joomla)
+---
