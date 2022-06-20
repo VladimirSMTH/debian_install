@@ -4,6 +4,7 @@ apt-get install curl
 sudo apt-get install software-properties-common dirmngr ca-certificates apt-transport-https nano wget curl -y
 curl -sSL https://packages.sury.org/apache2/README.txt | sudo bash -x
 sudo apt install apache2
+y
 sudo systemctl enable apache2 --now
 curl -LsS https://downloads.mariadb.com/MariaDB/mariadb_repo_setup | sudo bash -s -- --mariadb-server-version=10.7 --skip-maxscale --skip-tools
 sudo apt update
