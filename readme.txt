@@ -15,4 +15,4 @@ wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/d
 -
 ---
 Installing Prometheus on Debian 11:
-wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/prometheus.sh | bash
+wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/prometheus/prometheus.sh | bash
