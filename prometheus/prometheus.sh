@@ -1,7 +1,7 @@
 apt-get install sudo
 sudo apt-get install curl -y
 sudo groupadd --system prometheus
-udo useradd -s /sbin/nologin --system -g prometheus prometheus
+sudo useradd -s /sbin/nologin --system -g prometheus prometheus
 sudo mkdir /etc/prometheus
 sudo mkdir /var/lib/prometheus
 curl -s https://api.github.com/repos/prometheus/prometheus/releases/latest|grep browser_download_url|grep linux-amd64|cut -d '"' -f 4|wget -qi -
