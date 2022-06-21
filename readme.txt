@@ -2,17 +2,15 @@ Installing LAMP on Debian 11:
 wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/lamp.sh | bash
 Then, make mysql_secure_installation pls!
 ---
-Installing Grafana on Debian 11:
-wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/grafana.sh | bash
-Then, login on http://ip:3000 with admin-admin
----
 Installing Joomla in Docker on Debian 11:
 wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/docker/joomla.sh | bash
 Then, login on http://ip/ to web configurator. (db = joomladb, user = joomla, password = joomla)
 ---
-Installing Zabbix in Docker on Debian 11:
-wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/docker/zabbix.sh | bash
--
----
 Installing Prometheus on Debian 11:
 wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/prometheus/prometheus.sh | bash
+Then, go to http://ip:9090/
+---
+Installing Grafana on Debian 11:
+wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/grafana.sh | bash
+Then, login on http://ip:3000/ with admin-admin
+---
