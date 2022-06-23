@@ -14,3 +14,7 @@ Installing Grafana on Debian 11:
 wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/grafana.sh | bash
 Then, login on http://ip:3000/ with admin-admin
 ---
+Installing Node_exporter on Debian 11:
+wget -O - https://raw.githubusercontent.com/kvacompservice/debian_install/main/node_exporter/node_exporter.sh | bash
+Then, test it on http://ip:9100/
+---
